@@ -1,4 +1,4 @@
-FROM appleboy/drone-telegram:1.3.9-linux-arm64
+FROM appleboy/drone-telegram:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
